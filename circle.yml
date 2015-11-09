@@ -1,2 +1,6 @@
 general:
-  build_dir: api
+  build_dir: src
+
+test:
+  override:
+    - php ./src/test/utils/PodamTestConstants.java --unit-tests

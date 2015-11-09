@@ -1,6 +1,6 @@
 general:
   build_dir: api
-//  added new
+
 test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
